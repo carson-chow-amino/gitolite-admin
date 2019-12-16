@@ -2,4 +2,4 @@
 
 url=$(git config --get mirror.github.ssh)
 
-git push --mirror $url || exit 0
+git push --mirror $url 
