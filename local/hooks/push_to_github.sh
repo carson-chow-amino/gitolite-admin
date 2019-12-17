@@ -1,5 +1,5 @@
 #!/bin/sh
 
 url=$(git config --get mirror.github.ssh)
-
-git push --mirror $url 
+echo Pushing to: $url...
+exit 1
