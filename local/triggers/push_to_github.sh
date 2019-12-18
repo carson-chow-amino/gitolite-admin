@@ -1,5 +1,6 @@
 #!/bin/sh
 
 url=$(git config --get mirror.github.ssh)
-
-git push --mirror $url || die() { echo "$@" > &2; exit 1; }
+echo testing
+exit 0
+git push --mirror $url
